@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="U8nePF" name="Gravity" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildAAX,buildAU,buildStandalone,buildVST3"
+              cppLanguageStandard="20">
+  <MAINGROUP id="I19AtS" name="Gravity">
+    <GROUP id="{3D44C5C2-948A-63C5-1EA0-ECAF9C2F7D2A}" name="Source">
+      <FILE id="v75wWP" name="OtherLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/OtherLookAndFeel.cpp"/>
+      <FILE id="pK3Cyy" name="OtherLookAndFeel.h" compile="0" resource="0"
+            file="Source/OtherLookAndFeel.h"/>
+      <GROUP id="{1A39ACA0-5BC5-B508-FE85-F0B49639F40E}" name="Component">
+        <FILE id="za2Aol" name="HorizontalMeter.h" compile="0" resource="0"
+              file="../../../../Library/CloudStorage/GoogleDrive-carlosgarinpina@gmail.com/Mi unidad/TIERRA/Prueba/Source/Component/HorizontalMeter.h"/>
+      </GROUP>
+      <FILE id="x93sLq" name="BroadcasterComponent.cpp" compile="1" resource="0"
+            file="Source/BroadcasterComponent.cpp"/>
+      <FILE id="T2r3ds" name="BroadcasterComponent.h" compile="0" resource="0"
+            file="Source/BroadcasterComponent.h"/>
+      <FILE id="Fq4kCr" name="easywsclient.cpp" compile="1" resource="0"
+            file="../easywsclient/easywsclient.cpp"/>
+      <FILE id="lX7LMa" name="easywsclient.hpp" compile="0" resource="0"
+            file="../easywsclient/easywsclient.hpp"/>
+      <FILE id="dhpwle" name="ListenerComponent.cpp" compile="1" resource="0"
+            file="Source/ListenerComponent.cpp"/>
+      <FILE id="lPkhbQ" name="ListenerComponent.h" compile="0" resource="0"
+            file="Source/ListenerComponent.h"/>
+      <FILE id="LCyUlH" name="plugin.h" compile="0" resource="0" file="Source/plugin.h"/>
+      <FILE id="vR9jL0" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="NYAyAh" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="pm4YhW" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Bp6WMR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="gin" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="gin_gui" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="gin_network" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="gin_webp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Prueba"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Prueba"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="gin_webp" path="../JUCE/modules/Gin/modules"/>
+        <MODULEPATH id="gin" path="../JUCE/modules/Gin/modules"/>
+        <MODULEPATH id="gin_network" path="../JUCE/modules/Gin/modules"/>
+        <MODULEPATH id="gin_gui" path="../JUCE/modules/Gin/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
